@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="form_l">
+      <div class="main">
+        <p class="head">Student Registration Form</p>
+        <div class="form">
+          <form method="post">
+            <div class="form_container">
+              <p class="name">First Name*</p>
+              <input
+                type="text"
+                name="frstname"
+                placeholder="First Name"
+                class="name_"
+              />
+              <p class="name">Last Name*</p>
+              <input
+                type="name"
+                name="lstname"
+                placeholder="Last Name"
+                class="name_"
+              />
+              <p class="name">EMAIL*</p>
+              <input
+                type="email"
+                name="email"
+                placeholder="email"
+                class="name_"
+              />
+              <p class="name">Phone Number*</p>
+              <input
+                type="number"
+                name="phnum"
+                placeholder="Phone"
+                class="name_"
+              />
+
+              <p class="name">Gender*</p>
+              <div class="gender_container">
+                <input type="checkbox" name="gender" class="gender" />Male
+                <input type="checkbox" name="gender" class="gender" />female
+              </div>
+              <div class="password_container">
+                <p class="name">Password*</p>
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  class="password"
+                />
+                <input
+                  type="password"
+                  name="conform password"
+                  placeholder="Conform Password"
+                  class="password"
+                />
+              </div>
+            </div>
+
+            <br />
+            <div class="btn_container">
+              <input type="submit" name="submit" value="Submit" class="btn" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
